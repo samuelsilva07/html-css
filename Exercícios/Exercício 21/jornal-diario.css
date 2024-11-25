@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+/*pallete - #005999 #003255 #EBF2FA */
+
+/*general settings*/
+
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #EBF2FA;
+}
+.politica{
+    background-color: #ff0000;
+}
+.esportes{
+    background-color: #008000;
+}
+.famosos{
+    background-color: #FF784F;
+}
+.arte{
+    background-color: #800080;
+}
+.contatos{
+    background-color: black;
+}
+
+/*header*/
+
+header{
+    background-color: #005999;
+    color: white;
+    text-align: center;
+    height: 130px;
+    margin-bottom: 1em;
+}
+header>h1{
+    font-size: 3em;
+    padding-top: 8px;
+    text-shadow: 0px 0px 5px #003255;
+}
+header>p{
+    font-size: 1em;
+    padding: 10.5px;
+}
+nav{
+    background-color: #003255; 
+    justify-content: center;
+    padding: 14px;
+}
+nav>a{
+    margin: 0px 10px;
+    text-shadow: 0px 0px 1px #EBF2FA;
+    padding: 5px;
+    text-decoration: none;
+    color: #ffffff; 
+}
+.nav-item:hover{
+    border: 2px solid #EBF2FA; 
+    box-shadow: 0px 0px 2px #000000;
+}
+
+/*main*/
+
+section{
+    text-align: justify;
+    margin: auto;
+    padding: 16px;
+    max-width: 650px;
+}
+section>h1{
+    text-align: center;
+    font-size: 2em;
+    padding-top: 6px;
+}
+section>h2{
+    font-size: 25px;
+    text-decoration-color: #000000;
+    padding: 10px 0px;
+}
+section>p{
+    padding: 4px;
+    font-size: 1em;
+    text-align: justify;
+}
+.h1-middle{
+    padding-bottom: 10px;
+}
+aside{
+    display: flex;
+    justify-content: right;
+    padding: 2px 4px;
+}
+
+/*footer*/
+
+footer{
+    background-color: #003255;
+    color: #EBF2FA;
+    padding: 1.5em 4px;
+}
+footer>h2{
+    padding: 12px 20px;
+}
+footer>ul{
+   margin: 5px;
+}
+footer>ul>li>a{
+    text-decoration: none;
+    color: #EBF2FA;
+}
+footer>ul>li>a:hover{
+    text-decoration: underline;
+    text-decoration-color: #EBF2FA; 
+    text-shadow: 0px 0px 2px black;
+}

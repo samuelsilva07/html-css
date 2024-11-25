@@ -1,0 +1,21 @@
+Deutsch: 
+
+Diese Schriftart geht zurück auf die Titelgrafik der deutschen Krimiserie „Der Kommissar“, die das ZDF 1969-1976 in fast hundert Folgen ausstrahlte.
+Die Titelgrafik (u.a. auf Wikipedia abrufbar) ist handgeschrieben mit schnellen, fetten Pinselstrichen, wie an den doppelt vorkommenden Buchstaben m, s und r leicht erkennbar ist. Sie wurden digitalisiert, und aus diesem Material konnte auch fast der gesamte Bestand der Kleinbuchstaben entwickelt werden. Für die Großbuchstaben und Ziffern fanden sich andere Vorbilder, die dem Charakter der Schrift angepasst wurden. 
+Der Buchstabenbestand deckt unter anderem die Sprachen Deutsch, Englisch, Französisch, Spanich, Italienisch, Portugiesisch, Dänisch, Schwedisch, Norwegisch, Isländisch und Türkisch ab.
+In Anspielung auf den Hauptdarsteller Erik Ode ("der" Kommissar Herbert Keller) erhielt die Schrift ihren Namen.
+
+Ode an Erik AH kostenlos verwendbar unter der SIL Open Font License mit reserviertem Namen “Ode an Erik”. 
+Näheres unter https://scripts.sil.org/OFL
+
+
+English:
+
+This typeface originates in the Title graphics of the German TV police series "Der Kommissar" (The Police Commissioner) broadcast in 1969 to 1976.
+The graphic title consists of fast, bold brush strokes and was hand-made. The letters were scanned and digitized, and from that material almost all of the lowercase characters could be derived. Uppercase and figures took inspiration from other sources which were adapted to fit the general character of the typeface.
+The font works with many (mainly West-)European languages, such as English, German, French, Spanish, Italian, Portuguese, Danish, Swedish, Norwegian, Islandic and Turkish.
+The name of the font alludes to the actor who played the main charakter, Erik Ode. In English it means "Ode to Erik".
+
+Ode an Erik AH is available as a free font under the SIL Open Font License with the reserved name “Ode an Erik”. For details see https://scripts.sil.org/OFL
+
+

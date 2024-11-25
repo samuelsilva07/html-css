@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML 5</title>
+    <link rel="shortcut icon" href="Imagens/title favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários disposivos diferentes ou diminua a tela do seu navegador</p>
+    <picture>
+        <source media="(max-width: 740px)" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1030px)" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <hr>
+    <h1>Teste</h1>
+    <picture>
+        <source media="(max-width: 740px)" srcset="Imagens/nike-logo-300.png" type="image/png">
+        <source media="(max-width: 1030px)" srcset="Imagens/nike-logo-700.png" type="image/png">
+        <img src="Imagens/nike-logo-1000.png" alt="Imagem flexível">
+    </picture>
+    <hr>
+    <h1>Teste 2</h1>
+    <picture>
+        <source media="(max-width: 740px)" srcset="Imagens/logo-vans-300.png" type="image/png">
+        <source media="(max-width: 1250px)" srcset="Imagens/logo-vans-700.png" type="image/png">
+        <img src="Imagens/logo-vans-1200.png" alt="Logo Vans Flexível">
+    </picture>
+    <hr>
+    <h1>Reproduzindo áudios</h1>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="Midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="Midia/guanacast-33.ogg" type="audio/ogg"> 
+        <source src="Midia/guanacast-33.wav" type="audio/wav">      
+        <br>
+    </audio>
+    <p>Se não conseguir reproduzir o áudio, <a href="Midia/guanacast-33.mp3">clique aqui para baixá-lo</a></p>
+</body>
+</html>
