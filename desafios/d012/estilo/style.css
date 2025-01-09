@@ -1,6 +1,72 @@
 @charset "UTF-8";
 
+/*general settings*/
+
 *{
     padding: 0;
     margin: 0;
+}
+html, body{
+    min-height: 100vh;
+    background-color: lightgray;
+}
+
+/*header*/
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2.5em;
+}
+header>h1{
+    font-variant: small-caps;
+}
+header>p>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold
+}
+header>p>a:hover{
+    text-decoration: underline;
+    font-size: 16.5px;
+}
+
+/*main*/
+
+section{
+    padding: 10vh 1em;
+    line-height: 2em;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.image{
+    background: rgb(40, 40, 40) url('');
+    color: white;
+}
+section.image>p{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.186);
+}
+
+/*footer*/
+
+footer{
+    text-align: center;
+    color: white;
+}
+footer>p{
+    padding: 8px;
+    
+}
+footer>p>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+footer>p>a:hover{
+    text-decoration: underline;
+    font-size: 16.5px;
 }
