@@ -19,7 +19,7 @@
 }
 html, body{
     min-height: 100vh;
-    background-color: lightgray;
+    background-color: rgb(179, 179, 179);
     font-family: var(--main-font);
 
 }
@@ -55,18 +55,32 @@ section{
     font-family: var(--image-font);
     font-size: 3.5vw;
 }
+section>p{
+    padding-bottom: 2em;
+}
 section.normal{
     background-color: white;
     color: black;
 }
 section.image{
-    background: rgb(40, 40, 40) url('');
+    background: rgb(40, 40, 40);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.4); 
+    /*inset = sombra interna*/
 }
 section.image>p{
-    display: inline-block;
+    display: inline-block; /*background do tamanho dp <p>*/
     padding: 10px 20px;
-    background-color: rgba(0, 0, 0, 0.186);
+    background-color: rgba(0, 0, 0, 0.43);
+    text-shadow: 2px 1px 0px black;
+}
+section#img01{
+    background: rgb(40, 40, 40) url('../imagens/background001.jpg') right center no-repeat fixed;
+    background-size: cover;
+}
+section#img02{
+    background: rgb(40, 40, 40) url('../imagens/background002.jpg') right center no-repeat fixed;
+    background-size: cover;     
 }
 
 /*footer*/
