@@ -12,17 +12,30 @@
             width: 350px;
             border-collapse: collapse;
             text-align: center;
+            position: relative;
         }
         caption{
             background-color: rgb(73, 73, 73);
-            padding: 10px;
             color: white;
+            padding: 10px;
         }
         thead, tfoot{
             background-color: rgb(165, 165, 165);
             color: white;
-            
         }
+        thead>tr>th /*cabeçalho fixo*/ {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(73, 73, 73);
+        }
+        tbody>tr:nth-child(even){
+            background-color: lightgray;
+        }
+        /*
+        :nth-child() = filho
+        even (2n) = elementos pares
+        odd (2n-1) = elementos ímpares
+        */
         th, td{
             border: 1px solid black;
             padding: 10px;
@@ -55,12 +68,20 @@
             <tr>
                 <td>Rio de Janeiro</td>
                 <td class="num">17.264.943</td>
+            </tr> 
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.873.064</td>
+            </tr> 
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.433.957</td>
             </tr>
         </tbody>
         <tfoot>
             <tr>
                 <th scope="row">Total de habitantes</th>
-                <td class="num"><strong>84.352.783</strong></td>
+                <td class="num"><strong>110.659.804</strong></td>
             </tr>
         </tfoot>
     </table>
