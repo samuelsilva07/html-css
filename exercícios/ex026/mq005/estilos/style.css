@@ -16,16 +16,25 @@ h1{
 
 /* header */
 
-header {
+header, nav {
     background-color: gray;
+    color: white;
     text-align: center;
+}
+button {
+    display: none;
+    background-color: gray;
+    border: none;
 }
 ul {
     padding: 0.5em;
 }
 li {
-    color: white;
     display: inline;
+}
+a {
+    color: white;
+    text-decoration: none;
     padding: 4px;
     background-color: rgb(93, 93, 93);    
 }
@@ -40,5 +49,8 @@ section {
     border-radius: 10px;
     padding: 0.5em 2em;
     margin: auto;
-    max-width: 700px;
+    max-width: 500px;
+}
+p {
+    text-align: justify;
 }
