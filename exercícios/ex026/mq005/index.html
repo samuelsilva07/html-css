@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Media Query</title>
-<link rel="stylesheet" href="estilos/style.css">
-<link rel="stylesheet" href="estilos/mobile.css" media="screen and (max-width: 600px)">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/> <!-- menu hamburguer-->
+<link rel="stylesheet" href="estilos/style.css"> <!-- mobile first-->
+<!-- <link rel="stylesheet" href="estilos/mobile.css" media="screen and (max-width: 600px)"> -->
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <nav>
-            <button><img src="imagens/menu-hamburger-icon.webp" alt="Menu Hamburger"></button>
+        <span class="material-symbols-outlined" id="burguer" onclick="click_menu()">menu</span>
+        <menu id="items">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -19,7 +20,7 @@
                 <li><a href="#">Opção 4</a></li>
                 <li><a href="#">Opção 5</a></li>
             </ul>
-        </nav>
+        </menu>
     </header>
     <main>
         <section>
@@ -29,5 +30,13 @@
             <p>Unde, provident est a repellat temporibus odit error assumenda veniam dicta, ullam, voluptatibus modi soluta tempora vitae non consectetur alias laudantium architecto vel fugit saepe ad. Dolorum tempore quia praesentium?</p>
         </section>
     </main>
+    <script>
+        function click_menu() {
+            if(items.style.display == 'block')
+                items.style.display = 'none';
+            else
+                items.style.display = 'block';
+        }
+    </script>
 </body>
 </html>
