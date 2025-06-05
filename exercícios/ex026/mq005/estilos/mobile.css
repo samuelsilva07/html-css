@@ -6,7 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 html, body {
-    height: 100vh;
+    height: 97vh;
     width: 100vw;
     background-color: rgb(213, 213, 213);
 }
@@ -17,6 +17,7 @@ h1{
 /* header */
 
 header, menu {
+    width: 100%;
     background-color: gray;
     color: white;
     text-align: center;
