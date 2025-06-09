@@ -6,9 +6,9 @@
 <title>Media Query</title>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/> <!-- menu hamburguer-->
 <link rel="stylesheet" href="estilos/mobile.css"> <!-- mobile first-->
-<link rel="stylesheet" href="estilos/style.css" media="screen and (min-width: 600px)"> <!-- outras mídias -->
+<link rel="stylesheet" href="estilos/media-query.css"> <!-- outras mídias -->
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu Site</h1>
         <span class="material-symbols-outlined" id="burguer" onclick="click_menu()">menu</span>
@@ -36,6 +36,12 @@
                 items.style.display = 'none';
             else
                 items.style.display = 'block';
+        }
+        function mudouTamanho() {
+            if (window.innerWidth >= 768)
+                items.style.display = 'block';
+            else 
+                items.style.display = 'none';
         }
     </script>
 </body>
