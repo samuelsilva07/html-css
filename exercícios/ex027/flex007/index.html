@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        main {
+            background-color: lightsalmon;
+            display: flex;
+            height: 100px;
+        }
+        div.item {
+            background-color: lightblue;
+            border: 1px solid black;
+            padding: 40px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="item">A</div>
+        <div class="item" style="order: 9;">B</div>
+        <div class="item">C</div>
+        <div class="item" style="order: -3;">D</div>
+        <div class="item">E</div>
+        <div class="item" style="order: 0;">F</div>
+        <div class="item" style="order: 4;">G</div>
+    </main>
+</body>
+</html>
