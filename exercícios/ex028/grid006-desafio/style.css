@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* 10 rows, 5 columns */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    height: 500px;
+    grid-template: repeat(10, 1fr) / repeat(5, 1fr);
+    /* place-content: center center; */
+    grid-auto-flow: row;
+    gap: 5px;
+}
+
+.flex {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    grid-area: 1 / 1 / span 2 / -1;
+}
+
+menu {
+    grid-area: 3 / 1 / span 1 / -1;
+}
+
+section {
+    grid-area: 4 / 1 / span 6 / span 3;
+}
+
+article {
+    grid-area: 4 / 4 / span 6 / span 2;
+}
+
+footer {
+    grid-area: -2 / 1 / span 1 / -1;
+}
