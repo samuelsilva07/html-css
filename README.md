@@ -37,7 +37,7 @@
             <p>Projeto de uma tela de login simples, com a utilização de formulários, Media Queries, Flexbox, etc.</p>
         </li>
         <li>
-            <a href="https://samuelsilva07.github.io/projeto-la-pizza/"><strong>Landing Page La Pizza</strong></a>
+            <a href="https://samuelsilva07.github.io/site-la-pizza/"><strong>Landing Page La Pizza</strong></a>
             <p>Tela inicial para uma pizzaria fictícia, com aplicação de Flexbox em todos os elementos do site e também de outros recursos, como efeitos em CSS.</p>
         </li>
     </ul>
