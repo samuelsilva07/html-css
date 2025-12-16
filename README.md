@@ -1,10 +1,36 @@
-# html-css
- Curso HTML5+CSS3
+# Curso de HTML5 e CSS3
+<p>Esse repositório contém todos os exercícios que realizei durante meu aprendizado de HTML5 e CSS3. O material utilizado é referente aos módulos do <strong>Curso em Video</strong>, do professor Gustavo Guanabara.</p>
 
-Material do Curso em Video
+<p>Nesse curso, tive contato com vários elementos dessas linguagens, como:</p>
+<ul type="square">
+    <li>Tags semânticas</li>
+    <li>Tabelas</li> 
+    <li>Formulários</li> 
+    <li>Responsividade</li> 
+    <li>Flexbox</li> 
+    <li>Grid Layout</li> 
+    <li>E muito mais!</li>
+</ul> 
 
-<a href="exercícios/ex001/index.html" target="_blank">Executar o Exercício 001</a>
+<p>Com as aulas assistidas e os exercícios/projetos realizados, fui capaz de criar uma base sólida nos <strong>principais fundamentos do desenvolvimento web</strong>, e adquiri conhecimentos para criar páginas simples, mas com um bom nível de responsividade.</p>
 
-<a href="exercícios/ex002/index.html" target="_blank">Executar o Exercício 002</a> 
+<p>Aqui estão alguns projetos práticos que desenvolvi durante esse período:</p>
 
-<a href="exercícios/ex026/mq005/index.html" target="_blank">Exercício com menu hamburguer</as>
+<ul type="square">
+    <li>
+        <a href="https://samuelsilva07.github.io/projeto-social/" target="_blank" rel="external"><strong>Projeto de redes sociais</strong></a>
+        <p>Visualização prévia de imagens de sites, utilizando iframes.</p>
+    </li>
+    <li>
+        <a href="https://samuelsilva07.github.io/projeto-cordel/" target="_blank" rel="external"><strong>Projeto cordel</strong></a>
+        <p>Página web que contém um poema, com a integração de responsividade e efeito Parallax.</p>
+    </li> 
+    <li>
+        <a href="https://samuelsilva07.github.io/projeto-android/" target="_blank" rel="external"><strong>Projeto Android</strong></a>
+        <p>Artigo sobre a história do mascote do Android, em que foram aplicadas tags semânticas, animações CSS, responsividade e outras técnicas.</p>
+    </li> 
+    <li>
+        <a href="https://samuelsilva07.github.io/projeto-android/" target="_blank" rel="external"><strong>Tela de login</strong></a>
+        <p>Projeto de uma tela de login simples, com a utilização de formulários, Media Queries, Flexbox, etc.</p>
+    </li> 
+</ul>
