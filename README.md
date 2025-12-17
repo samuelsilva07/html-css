@@ -2,7 +2,7 @@
 <p>Esse repositório contém todos os exercícios que realizei durante meu aprendizado de HTML5 e CSS3. O material utilizado é referente aos módulos do <strong>Curso em Video</strong>, do professor Gustavo Guanabara.</p>
 
 <p>Nesse curso, tive contato com vários elementos dessas linguagens, como:</p>
-<div class="border">
+<div style="border: 0.5px solid grey; padding: 1em 5px;">
     <ul type="square">
         <li>Tags semânticas</li>
         <li>Tabelas</li>
@@ -18,7 +18,7 @@
 
 <p>Aqui estão alguns projetos práticos que desenvolvi durante esse período:</p>
 
-<div class="border">
+<div style="border: 0.5px solid grey; padding: 1em 5px;">
     <ul type="square">
         <li>
             <a href="https://samuelsilva07.github.io/projeto-social/"><strong>Projeto de redes sociais</strong></a>
@@ -42,9 +42,3 @@
         </li>
     </ul>
 </div>
-<style>
-    .border {
-        border: 0.5px solid grey;
-        padding: 1em 5px;   
-    }
-</style>
